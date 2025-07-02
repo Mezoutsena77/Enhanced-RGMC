@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced RGMC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h2>✠ Enhanced Rotating Grid Modular Cipher (E-RGMC)</h2>
+  <form id="cipherForm">
+    <label for="plaintext">Plaintext:</label>
+    <textarea id="plaintext" placeholder="Enter text..."></textarea>
+
+    <label for="key">Key:</label>
+    <input type="text" id="key" placeholder="Enter key..." />
+
+    <div class="buttons">
+      <button type="button" onclick="encrypt()">Encrypt</button>
+      <button type="button" onclick="decrypt()">Decrypt</button>
+      <button type="button" class="clear-btn" onclick="clearFields()">Clear</button>
+    </div>
+  </form>
+
+  <div class="output" id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+/* General layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1d1f27;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    background: #2b2e3b;
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 420px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #66d9ef;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Inputs */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #1d1f27;
+    color: white;
+    font-size: 14px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #4cf305;
+    color: #1d1f27;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #4bbad6;
+}
+
+button.clear-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button.clear-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Result output */
+#result {
+    margin-top: 20px;
+    padding: 12px;
+    background: #1d1f27;
+    border-left: 4px solid #3de617;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 14px;
+}
